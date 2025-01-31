@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Werror -pedantic -std=c99
 TARGET = supermercado
-OBJS = main.o cliente.o caixa.o
+OBJS = main.o Cliente.o Caixa.o
 
 .PHONY: all clean run
 
